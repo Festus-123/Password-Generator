@@ -31,7 +31,7 @@ const Template = () => {
         <button onClick={handleSearch} className='bg-[#80808032] backdrop-blur-10 rounded-[100%] p-2 lg:p-3 absolute right-2 lg:top-1.5 top-1.5 hover:bg-[#80808081]'><FaSearch size={10} /> </button>
         </div>
       </div>
-      <div className='grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-2 md:3 lg:4 p-4 lg:p-8'>
+      <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-2 md:3 lg:4 p-4 lg:p-8'>
         { filtered.map((item, index) => (
             <div key={index} className='flex flex-col border-dotted border-4 p-3 lg-p4 m-2 lg:m-3 rounded-3xl'>
                 <p className='font-light text-xl lg:text-2xl '>{item.id}</p>
