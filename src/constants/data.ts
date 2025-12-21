@@ -14,25 +14,25 @@ export const templates: templateData = [
         unique: "JimStichy"
     },
     {
-        id: "#1",
+        id: "#3",
         name: "John Doe",
         favPhrase: "What if i",
         unique: "Johnify"
     },
     {
-        id: "#1",
+        id: "#4",
         name: "John Doe",
         favPhrase: "What if i",
         unique: "Johnify"
     },
     {
-        id: "#1",
+        id: "#5",
         name: "John Doe",
         favPhrase: "What if i",
         unique: "Johnify"
     },
     {
-        id: "#1",
+        id: "#6",
         name: "John Doe",
         favPhrase: "What if i",
         unique: "Johnify"

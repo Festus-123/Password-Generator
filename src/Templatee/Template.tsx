@@ -27,7 +27,7 @@ const Template = () => {
       <div className='flex flex-row items-center justify-between mx-4 p-4 lg:mx-8  md:mx-6 border-b-2'>
         <h1 className='text-xl lg:text-4xl'>Templates</h1>
         <div className='relative flex-row'>
-        <input placeholder='search templates' type="text" value={value} onChange={(e) => handleCanges(e)} className='bg-[#8080804d] py-1.5 px-2.5 lg:p-3 rounded-3xl '/>
+        <input placeholder='search templates' type="text" value={value} onChange={(e) => handleCanges(e)} className='bg-[#80808011] py-1.5 px-2.5 lg:p-3 rounded-3xl '/>
         <button onClick={handleSearch} className='bg-[#80808032] backdrop-blur-10 rounded-[100%] p-2 lg:p-3 absolute right-2 lg:top-1.5 top-1.5 hover:bg-[#80808081]'><FaSearch size={10} /> </button>
         </div>
       </div>
