@@ -21,7 +21,7 @@ const Formulator = () => {
   const [passwords, setPasswords] = useState <string[]>([]);
 
   const handleGenerate = () => {
-    const newPassword = generatePassword(userDetails, config, 10)
+    const newPassword = generatePassword(userDetails, config)
     console.log("New Password", newPassword)
     setPasswords(newPassword)
   }

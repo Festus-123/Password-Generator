@@ -30,8 +30,8 @@ const getRandomFrom = <T>(array: T[]): T =>
 const generateRandomNumberString = (length: number): string =>
   Array.from({ length }, () => getRandomFrom(NUMBERS)).join("");
 
-const generateRandomLetters = (length: number): string =>
-  Array.from({ length }, () => getRandomFrom(ALPHABETS.split(""))).join("");
+// const generateRandomLetters = (length: number): string =>
+//   Array.from({ length }, () => getRandomFrom(ALPHABETS.split(""))).join("");
 
 const __FIRST = (userDetails: UserDetails): string[] => {
   const stacks: string[] = [];
@@ -108,10 +108,11 @@ export const buildPassword = (
 export const generatePassword = (
   userDetails: UserDetails,
   config: passwordConfig,
-  count: number = 10
+
 ): string[] => {
   const parts = __FIRST(userDetails);
   const passwords: string[] = [];
+  
 
   passwords.push(buildPassword(parts, config));
 
