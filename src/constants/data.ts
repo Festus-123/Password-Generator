@@ -45,18 +45,18 @@ export const templates: templateData = [
     },
     {
         id: "#8",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        name: "Esther Oluwaseun",
+        favPhrase: "dog bite thy enemy",
+        unique: "022044044"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#9",
+        name: "Samuel phillip",
+        favPhrase: "Ask the law",
+        unique: "111011101110"
     },
     {
-        id: "#1",
+        id: "#10",
         name: "John Doe",
         favPhrase: "What if i",
         unique: "Johnify"
