@@ -1,4 +1,4 @@
-import {FaSearch} from "react-icons/fa"
+import {FaBlog} from "react-icons/fa"
 
 const Header = () => {
   return (
@@ -6,7 +6,7 @@ const Header = () => {
       <h1 className='text-xl lg:text-4xl lg:font-light'>Password Generator </h1>
 
       <div className='rounded-full p-2 lg:p-3 border lg:border'>
-        <FaSearch size={20} className='text-[#000000c1] lg:text-white md:text-white ' />
+        <FaBlog size={20} className='text-[#000000c1] lg:text-white md:text-white ' />
       </div>
     </div>
   )
