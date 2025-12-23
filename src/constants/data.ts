@@ -1,4 +1,4 @@
-type templateData = Array<{id: string, name: string, favPhrase?: string, unique: string}>
+export type templateData = Array<{id: string, name: string, favPhrase?: string, unique: string}>
 
 export const templates: templateData = [
     {
@@ -57,206 +57,206 @@ export const templates: templateData = [
     },
     {
         id: "#10",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        name: "Ted Washington",
+        favPhrase: "Value in principles",
+        unique: "value_2000@ted"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#11",
+        name: "Diana Farr",
+        favPhrase: "forest and mountains are alike",
+        unique: "forests-000"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#12",
+        name: "Riele Dans",
+        favPhrase: "Music isn't aet no more",
+        unique: "#Dawn_2020202_Mus"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#13",
+        name: "Mierle Sabastien",
+        favPhrase: "Q fro quran",
+        unique: "Q-12345678"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#14",
+        name: "peter resnont",
+        favPhrase: "Restaurant are where ove to the stomach is made",
+        unique: "112-223-44"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#15",
+        name: "Lee Chang",
+        favPhrase: "Rushed into rich is nade perfect",
+        unique: "Rushed.Lee_020201"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#16",
+        name: "Baiter victor",
+        favPhrase: "Age is just a number",
+        unique: "Age.000000-00"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#17",
+        name: "Micheal estraey",
+        favPhrase: "Money matters a whole lot",
+        unique: "@estra-mic0609-9"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#18",
+        name: "Phillip junior",
+        favPhrase: "Phillistine in blood",
+        unique: "090901111-2293"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#19",
+        name: "Jessica rich",
+        favPhrase: "On stage is the moment of battle",
+        unique: "303-3333-3211-784575848-04847"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#20",
+        name: "Mercy chinwo",
+        favPhrase: "Stand alone occupant",
+        unique: "!Stand-0merc_4000"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#21",
+        name: "Vicky smith",
+        favPhrase: "Marksmanship",
+        unique: "00000000000000000000000000_"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#22",
+        name: "Stacy smith",
+        favPhrase: "Missionaries are the warriors for decades",
+        unique: "Stacy30000"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#23",
+        name: "Samuel turly",
+        favPhrase: "Richard or rich they are rich",
+        unique: "1969052008"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#24",
+        name: "Famuyi tolani",
+        favPhrase: "if paid means you settled nothing is more joyful",
+        unique: "#tola_12345-Fam"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#25",
+        name: "Tracy smith",
+        favPhrase: "keep it simple",
+        unique: "keep-tra1234"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#26",
+        name: "Park Jung",
+        favPhrase: "Money stands out above all",
+        unique: "Money@4jung"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#27",
+        name: "Johnson mike",
+        favPhrase: "Steadily on the move",
+        unique: "12345678"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#28",
+        name: "Millan multer",
+        favPhrase: "seriouness is not business",
+        unique: "Milan-234_0"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#29",
+        name: "Fillman Sekrat",
+        favPhrase: "I will always choose wealth over poverty",
+        unique: "38727484995008376228499505"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#30",
+        name: "Minister Ola",
+        favPhrase: "Lordman and servant-man",
+        unique: "LordMan-2003004"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#31",
+        name: "DOrcas fedrick",
+        favPhrase: "All stars are all humans",
+        unique: "293944857575849404"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#32",
+        name: "Phillip suzan",
+        favPhrase: "Stooooooooooooop",
+        unique: "#phill_998-stooo...p"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#33",
+        name: "Suleman idris",
+        favPhrase: "Witch-craft is fun ",
+        unique: "witchCraft@0100"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#34",
+        name: "Micheal destiny",
+        favPhrase: "Living under the same roof",
+        unique: "Living-destiny@10_"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#35",
+        name: "Sundrick hatrick",
+        favPhrase: "sunny day in winter",
+        unique: "sun@000-#hatr..."
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#36",
+        name: "Maltina French",
+        favPhrase: "save yourself cause no one else matters",
+        unique: "#fren-124_malt-save"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#37",
+        name: "Samuel tony",
+        favPhrase: "Bridge to wisdom",
+        unique: "-Bridge@240Sam"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#38",
+        name: "Tomisin kurupe",
+        favPhrase: "Fuc*k youuuu 👎",
+        unique: "TOmisin_3043-fuckkkkkkkk"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#39",
+        name: "Deneryis thagerian",
+        favPhrase: "the seven seat",
+        unique: "9393848848959958373363363"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#40",
+        name: "Diana smooshe",
+        favPhrase: "Whatever happens",
+        unique: "_000000_0000_000-"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#41",
+        name: "Micheal sean",
+        favPhrase: "Minister or all creatures",
+        unique: "Mic@212-sean_minister-990"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#42",
+        name: "Simon shakes",
+        favPhrase: "Widom is book",
+        unique: "1212121212121212"
     },
     {
-        id: "#1",
-        name: "John Doe",
-        favPhrase: "What if i",
-        unique: "Johnify"
+        id: "#43",
+        name: "Michealson Fieldsman",
+        favPhrase: "bar an wine is more life has to offer",
+        unique: "@bar__Mic__fiel212"
     },
 ]

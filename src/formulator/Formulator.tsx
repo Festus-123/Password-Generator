@@ -75,7 +75,7 @@ const Formulator = () => {
         <input
           required
           value={userDetails.firstname}
-          onChange={(e) =>
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setUserDetails({ ...userDetails, firstname: e.target.value })
           }
           placeholder="1. Your First Name"
@@ -86,7 +86,7 @@ const Formulator = () => {
         <input
           required
           value={userDetails.lastname}
-          onChange={(e) =>
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setUserDetails({ ...userDetails, lastname: e.target.value })
           }
           placeholder="2. Your Last Name"
@@ -97,7 +97,7 @@ const Formulator = () => {
         <input
           required
           value={userDetails.favPhrase}
-          onChange={(e) =>
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setUserDetails({ ...userDetails, favPhrase: e.target.value })
           }
           placeholder="3. Your Vibes Name/Phrase"
@@ -108,7 +108,7 @@ const Formulator = () => {
         <input
           required
           value={userDetails.remembered}
-          onChange={(e) =>
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setUserDetails({ ...userDetails, remembered: e.target.value })
           }
           placeholder="4. Most remembered character"
@@ -163,8 +163,8 @@ const Formulator = () => {
         </button>
       </div>
 
-      <div className="relative w-[full] lg:w[50%] md:w-[50%] border-dashed border-2  my-8 md:my-10 lg:my-6 p-4 lg:p-8 flex items-center justify-center hover:bg-[#8080800a]">
-        <div className="rounded-full p-2 lg:p-3 bg-[#80808026] absolute left-2 top-2">
+      <div className="relative w-[full] lg:w[50%] md:w-[50%] border-dashed border-2  my-8 md:my-10 lg:my-6 p-4 lg:p-8 flex items-center justify-center hover:bg-[#80808008]">
+        <div className="rounded-full p-2 lg:p-3 hover:bg-[#80808026] absolute left-2 top-2 bg-[#8080800a]">
           {copy ? (
             <FaRegCopy className="text-center" />
           ) : (
